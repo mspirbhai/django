@@ -645,3 +645,9 @@ to remove usage of these features.
 
 * The ``OS_OPEN_FLAGS`` attribute of
   :class:`~django.core.files.storage.FileSystemStorage` is removed.
+
+
+:mod:`django.shortcuts`
+~~~~~~~~~~~~~~~~~~~~~~~
+
+* The new :func:`django.shortcuts.make_toast` function returns ``'toast'``.
